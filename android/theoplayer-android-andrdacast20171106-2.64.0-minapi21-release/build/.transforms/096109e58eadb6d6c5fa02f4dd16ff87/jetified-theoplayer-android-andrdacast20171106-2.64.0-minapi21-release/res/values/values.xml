@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="THEOplayerView">
+        <attr format="boolean" name="multiSession"/>
+        <attr format="boolean" name="chromeless"/>
+        <attr format="boolean" name="defaultCss"/>
+        <attr format="string" name="jsPaths"/>
+        <attr format="string" name="jsPathsPre"/>
+        <attr format="string" name="cssPaths"/>
+        <attr format="boolean" name="googleIma"/>
+        <attr format="string" name="youboraAccountCode"/>
+        <attr format="string" name="moatPartnerCode"/>
+        <attr format="string" name="moatNamespace"/>
+        <attr format="string" name="uiLanguage"/>
+        <attr format="enum" name="adPreloadType">
+            <enum name="none" value="0"/>
+            <enum name="midroll_and_postroll" value="1"/>
+        </attr>
+        <attr format="enum" name="castStrategy">
+            <enum name="manual" value="0"/>
+            <enum name="disabled" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+        <attr format="boolean" name="hlsDateRange"/>
+    </declare-styleable>
+    <string name="cache_pref_key">theoplayer-android.caching-data</string>
+    <style name="FullScreenDialogTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+    </style>
+</resources>

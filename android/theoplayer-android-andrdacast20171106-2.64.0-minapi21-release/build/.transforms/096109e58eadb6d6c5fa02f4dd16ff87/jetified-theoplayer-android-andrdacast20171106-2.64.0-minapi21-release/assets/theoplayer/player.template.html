@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><!-- PAGE_TITLE_GOES_HERE --></title>
+
+    <!-- DEFAULT_CSS_GOES_HERE -->
+    <!-- SDK_CSS_GOES_HERE -->
+    <!-- CSS_PATHS_GOES_HERE -->
+    <!-- SERIALIZER_JS_GOES_HERE -->
+    <!-- SDK_UTILS_JS_GOES_HERE -->
+    <!-- EVENT_PROCESSORS_JS_GOES_HERE -->
+    <!-- CALLBACK_UTILS_JS_GOES_HERE -->
+    <!-- CHROMECAST_SENDER_JS_GOES_HERE -->
+    <!-- GOOGLE_IMA_JS_GOES_HERE -->
+    <!-- YOUBORA_JS_GOES_HERE -->
+    <!-- CONVIVA_SDK_GOES_HERE -->
+    <!-- THEOPLAYER_CONVIVA_JS -->
+    <!-- SEGMENT_DOWNLOAD_HELPER_JS_GOES_HERE -->
+    <!-- CACHE_HELPER_JS_GOES_HERE -->
+    <!-- FULLSCREEN_JS_GOES_HERE -->
+    <!-- THEOPLAYER_JS_GOES_HERE -->
+</head>
+
+<body>
+<div class="player-div video-js theoplayer-skin"></div>
+<!-- PRETHEO_JS_PATHS_GOES_HERE -->
+<script>
+        if(!__GLOBAL_ONLY__){
+            var player = (function() {
+                var element = document.querySelector('.player-div');
+                var configuration = __PLAYER_CONFIGURATION_GOES_HERE__;
+                return __CHROMELESS_ENABLED__
+                    ? new THEOplayer.ChromelessPlayer(element, configuration)
+                    : new THEOplayer.Player(element, configuration);
+
+            })();
+        }
+        theoplayerWebViewHelper.onTHEOplayerCreatedInJS();
+
+
+</script>
+<!-- JS_PATHS_GOES_HERE -->
+<script>
+    theoplayerWebViewHelper.onUserScriptExecutedInJS();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+package decast_player_plugin.android
+
+rootProject.name = 'decast_player_plugin'

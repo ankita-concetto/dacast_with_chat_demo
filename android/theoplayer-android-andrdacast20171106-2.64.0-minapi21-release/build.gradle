@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('theoplayer-android-andrdacast20171106-2.64.0-minapi21-release.aar'))

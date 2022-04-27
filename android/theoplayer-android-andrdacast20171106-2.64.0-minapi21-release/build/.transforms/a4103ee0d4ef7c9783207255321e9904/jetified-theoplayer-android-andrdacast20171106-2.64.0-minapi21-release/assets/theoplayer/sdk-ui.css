@@ -1,0 +1,36 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-js .theo-player-wrapper {
+    background-color: transparent;
+}
+.player-div {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*From chrome 66 user agent style sheet, pseudo class :-webkit-full-screen*/
+.theo-webkit-full-screen {
+    z-index: 2147483647 !important;
+}
+
+/*From chrome 66 user agent style sheet, pseudo class :-webkit-full-screen-ancestor*/
+.theo-webkit-full-screen-ancestor:not(iframe) {
+    z-index: auto !important;
+    position: static !important;
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    perspective: none !important;
+    transform-style: flat !important;
+    will-change: auto !important;
+    -webkit-mask: none !important;
+    transition: none !important;
+}

@@ -1,0 +1,604 @@
+class StringConstants {
+  static const String noInternetConnection =
+      "Please check your Internet connection";
+  static const String shareYourStories = "Share Your Stories";
+  static const String contentForFirstSlider =
+      "There are many variations of passages of Lorem Ipsum available.";
+  static const String becomeAUser = "Become a user";
+  static const String about = "About";
+  static const String editProfile = "Edit Profile";
+  static const String becomeASeller = "Become a Seller";
+  static const String findACustomer = "Find a Customer";
+  static const String signUp = "Sign Up";
+  static const String save = "Save";
+  static const String skip = "Skip";
+  static const String confirm = "Confirm";
+  static const String price1 = "\$83";
+  static const String placeOrder = "Place Order";
+  static const String sellerDescription =
+      "It is a long established fact that a reader will be distracted by the readable.";
+  static const String registerByEnteringInfo =
+      "Register by entering valid information.";
+  static const String searchLabel = "Search";
+  static const String whyAreUReporting = "Why Are you reporting this post?";
+  static const String descriptionLabel = "Description";
+  static const String customerReviewLabel = "Customer Reviews";
+  static const String addAddressLabel = "Add Address";
+  static const String deliveryAddressLabel = "Delivery Address";
+  static const String addNewAddress = "+Add New Address";
+  static const String orderSummaryLabel = "Order Summary";
+  static const String priceLabel = "Price: ";
+  static const String colorLabel = "Color: ";
+  static const String qtyLabel = "Qty: ";
+  static const String supplierLabel = "Supplier:";
+  static const String sort = "SORT";
+  static const String soldBy = "Sold By";
+
+  static const String nameLabel = "Name";
+  static const String userNameLabel = "Username";
+  static const String emailLabel = "Email";
+  static const String passwordLabel = "Password";
+  static const String confirmPasswordLabel = "Confirm Password";
+  static const String phoneNumberLabel = "Phone";
+  static const String phoneNumber = "Phone Number";
+  static const String pinCodeLabel = "Pin Code*";
+  static const String mobileLabel = "Mobile*";
+  static const String addressLabel = "Address*";
+  static const String localityLabel = "Locality*";
+  static const String cityLabel = "City Name";
+  static const String stateLabel = "State Name";
+  static const String addressType = "Address Type";
+  static const String saveAddress = "Save Address";
+  static const String deliverToThisAddress = "Deliver to this Address";
+  static const String homeLabel = "Home";
+  static const String workLabel = "Work";
+  static const String makeAsDefaultAddress = "Make as default address";
+  static const String dobLabel = "Date of Birth";
+  static const String genderLabel = "Gender";
+  static const String maleLabel = "Male";
+  static const String femaleLabel = "Female";
+  static const String otherLabel = "Other";
+  static const String bioLabel = "Bio";
+  static const String defaultLabel = "(Default)";
+  static const String termsAndConditionSelectionLabel =
+      "By signing up you agree all ";
+  static const String termsAndConditionLabel = "terms and conditions.";
+  static const String termsAndConditionLabelCap = "Terms and conditions.";
+  static const String dobHint = "DD/MM/YYYY";
+  static const String or = "OR";
+  static const String continueWithApple = "Continue with Apple";
+  static const String continueWithFacebook = "Continue with Facebook";
+  static const String continueWithGoogle = "Continue with Google";
+  static const String alreadyHaveAnAccount = "Already have an account? ";
+  static const String loginNow = "Login In Now";
+  static const String enterOtp = "Enter OTP";
+  static const String otpDesc =
+      "Enter the code we just send on your mobile phone ";
+  static const String notReceiveOtp = "Didn't receive the code? ";
+  static const String resendOtp = "Resend OTP";
+  static const String troubleWithLogin = "Trouble With Login?";
+  static const String forgotDesc =
+      "Enter your username or email address and we will send you a link to get back into your account.";
+  static const String sendLoginLink = "Send Login Link";
+  static const String backToLogin = "Back to Login";
+  static const String sendOtp = "Send OTP";
+  static const String homeMenu = "Home";
+  static const String playListMenu = "Playlist";
+  static const String liveMenu = "Live";
+  static const String musicMenu = "Music";
+  static const String shopMenu = "Shop";
+  static const String profileMenu = "Profile";
+  static const String seeUrProfile = "See Your Profile";
+  static const String shopByCategories = "Shop by Categories";
+  static const String playlist = "Playlist";
+  static const String music = "Music";
+  static const String library = "Library";
+  static const String myOrder = "My Orders";
+  static const String help = "Help";
+  static const String logOut = "Logout";
+  static const String viewAll = "View All  ";
+  static const String signin = "Sign In";
+  static const String contentForSignIn =
+      "Sign In to your account with your email and password.";
+  static const String lableOfBoxUserName = "Phone Number or Username or Email";
+  static const String lableOfPassword = "Password";
+  static const String forgot = "Forgot Password?";
+  static const String signInOnButton = "Sign In";
+  static const String orButton = "OR";
+  static const String googleButton = "Continue with Google";
+  static const String faceBookButton = "Continue with Facebook";
+  static const String appleButton = "Continue with Apple";
+  static const String alreadyAccount = "Already have an account? ";
+  static const String createNow = "Create Now";
+  static const String create = "Create";
+  static const String playList = "Playlist";
+  static const String hide = "Hide";
+  static const String share = "Share";
+  static const String unFollow = "Unfollow";
+  static const String reportUser = "Report";
+  static const String howManyVideos = "10 videos";
+  static const String nameOfPlaylist = "Playlist Name";
+  static const String nameOfPublisher = "Publisher Name";
+  static const String lableOfHome = "Home";
+  static const String lableOfPlaylist = "Playlist";
+  static const String lableOfLive = "Live";
+  static const String lableOfMusic = "Music";
+  static const String lableOfShop = "Shop";
+  static const String lableOfDirham = "22";
+  static const String comments = "Comments";
+  static const String writeAComment = "Write a comment...";
+  static const String all = "All";
+  static const String paid = "Paid";
+  static const String subscribed = "Subscribed";
+  static const String purchased = "Purchased";
+  static const String posts = "Posts";
+  static const String followers = "Followers";
+  static const String following = "Following";
+  static const String changeProfilePicture = "Change Profile Picture";
+  static const String edit = "Edit";
+  static const String hobbiesLabel = "Hobbies";
+  static const String switchTOBusinessUser = "Switch to Business user";
+  static const String addImage = "+ Add Feature Image Here";
+  static const String newPlaylist = "New Playlist";
+  static const String playlistTitle = "Playlist Title";
+  static const String uploadVideo = "+ Upload Videos";
+  static const String private = "Private";
+  static const String public = "Public";
+  static const String savePlaylist = "Save Playlist";
+  static const String selectYourHobbies = "Select You hobbies";
+  static const String playlistText = "Playlist";
+  static const String videos = "Videos";
+  static const String buyNow = "Buy Now";
+  static const String text1 = "The Handmaid’s Tale";
+  static const String text2 = "Rivers of London";
+  static const String text3 = "This Is Going to Hurt";
+  static const String text4 = "I Am C-3PO";
+  static const String text5 = "The Circle";
+  static const String text6 = "A Legacy of Spies";
+  static const String text7 = "Solo: A James Bond Novel";
+  static const String text8 = "How to be Right";
+  static const String subscribe = "SUBSCRIBE";
+  static const String playText = "Play";
+  static const String numberText = "156";
+  static const String buyNowLabel = "Buy Now";
+
+  static const String textOfNewPost = "New Post";
+  static const String textOfPost = "Post";
+  static const String textOfWriteCaption = "Write a caption...";
+  static const String textOfAddLocation = "Add location";
+  static const String textOfTagPeople = "Tag people";
+  static const String title = "Title";
+  static const String content =
+      "Do you want to keep this playlist free or premium?";
+  static const String free = "Free";
+  static const String premium = "Premium";
+
+  static const String recentActivities = "Recent Activities";
+  static const String savedPlaylists = "Saved Playlists";
+  static const String savedMusic = "Saved Music";
+  static const String watchLater = "Watch Later";
+  static const String downloads = "Downloads";
+
+  static const String last30days = "Last 30 days";
+  static const String watchName = "Fire-Boltt Ninja 2 Max";
+  static const String arrivingToday = "Arriving Today";
+  static const String arriving30Jan = "Arriving 30 Jan 2022";
+  static const String iPhoneName = "Apple iPhone 11(64GB)";
+  static const String deliverDateForWatch = "Delivered on 20 Jan 2022";
+  static const String deliverDateForIPhone = "Delivered on 17 Dec 2021";
+  static const String select = "Select";
+  static const String orderType = "Order Type";
+  static const String notYet = "Not yet shipped";
+  static const String cancelled = "Cancelled";
+  static const String time = "Time";
+  static const String last6month = "Last 6 months";
+  static const String lastYear = "Last Year";
+
+  static const String mostPopularLabel = "MOST POPULAR";
+  static const String allMobiles = "ALL MOBILES";
+  static const String availableColorLabel = "Available color";
+  static const String availableSizeLabel = "Available sizes";
+  static const String addToCart = "Add to Cart";
+  static const String ratingAndReview = "Ratings & Reviews";
+  static const String customerPhotos = "Customer Photos";
+  static const String customerReviews = "Customer Reviews";
+  static const String addedToCart = "Added To Cart";
+  static const String goToCart = "Go to Cart";
+  static const String continueShopping = "Continue Shopping";
+  static const String contactDetails = "Contact Details";
+  static const String addressInfo = "Address Info";
+  static const String viewProfile = "View Profile";
+
+  /*Validation Error Msg*/
+  static const String validationPassword = "Please enter password";
+  static const String validationEmail = "Please enter email address";
+  static const String validationValidEmail = "Please enter valid email address";
+  static const String validationFullName = "Please enter name";
+  static const String validationPhoneNumber = "Please enter phone number";
+  static const String validationInPhoneNumber = "Invalid phone number";
+  static const String validationInBusinessPhoneNumber = "Invalid business phone number";
+  static const String validationDob = "Please enter date of birth";
+  static const String validationName = "Please enter name";
+  static const String validationDateOfBirth = "Please select Date of birth";
+  static const String validationUserName = "Please enter username";
+  static const String passwordDoesNotMatch =
+      "Password and Confirm Password does not matched.";
+  static const String acceptTANDC = "Please accept terms and condition.";
+  static const String validationQuery = "Please enter Your Query";
+
+  static const String dummyFollowing = "643 Following";
+  static const String dummyFollowers = "23k Followers";
+  static const String dummyName = "Pedro Kayode";
+  static const String dummyId = "@pedro_kayode";
+  static const String followBack= "Follow Back";
+  static const String remove= "Remove";
+
+  static const String pleaseSignUpToContinue= "Please Sign Up To Continue";
+  static const String contentOfPopup= "Lorem Ipsum is simply dummy text of the printing and typesetting?";
+  static const String back= "Back";
+  static const String signUpNow= "Sign Up now";
+
+
+  static const String completeYourProfile= "Complete Your Profile";
+  static const String contentOfCompleteYourProfile= "Enter following details to Sign In.";
+
+  static const String submit= "Submit";
+  static const String moLabel= "Mo.";
+  static const String editAddress= "Edit Address";
+
+  static const String orderText= "Order #3269853";
+  static const String price= "Price:";
+  static const String iPhoneColor= "Color:";
+  static const String iPhoneQty= "Qty:";
+  static const String order= "Ordered";
+  static const String packed= "Packed";
+  static const String returnItem= "Return Item";
+  static const String transit= "In transit";
+  static const String delivered= "Delivered";
+  static const String orderDate= "11 Dec 2021";
+  static const String packedAndTransitDate= "13 Dec 2021";
+  static const String deliveredDate= "17 Dec 2021";
+  static const String returnDate= "20 Dec 2021";
+  static const String deliveredAddress= "Delivery Address";
+  static const String address1= "Street 7, Plot No. 71, Mussafah, Abu Dhabi - 2058";
+  static const String otherItems= "Other Items in this order";
+  static const String totalOrderText= "Total order value:";
+  static const String totalOrder= "\$930";
+
+  static const String musicPlay= "3:22 ";
+  static const String totalTime= "5:30";
+  static const String musicPlayText= "3:22 / 5:30";
+  static const String musicNumber= "1/10";
+  static const String refundDate= "--------";
+
+
+  static const String successful= "Successful!";
+  static const String contentOfYourSuccessful= "You have successfully registered as a trader. You will shortly receive an email after Admin approval.";
+  static const String goToHome= "Go to Homepage";
+  static const String rateThisPlaylist= "Rate this Playlist";
+  static const String loginWithFacebook= "Logging with Facebook...";
+  static const String loginWithGoogle= "Logging with Google...";
+  static const String verifyDetails= "Verifying Details...";
+
+  static const String nowPlaying= "Now Playing";
+  static const String memories= "Memories";
+  static const String musicName= "Maroon 5";
+  static const String addReview= "Add Review";
+  static const String addTitle= "Add Title";
+  static const String addPhotos= "Add Photos";
+  static const String writeReview= "Write your review...";
+  static const String submitReview= "Submit Review";
+  static const String helpAndSupport= "Help & Support";
+  static const String searchContent= "How can we help you today?";
+  static const String helpCategories= "Help Categories";
+  static const String user= "User";
+  static const String businessUser= "Business User";
+  static const String seller= "Seller";
+  static const String dummyContentOfCategories= "Lorem Ipsum is simply dummy text of the ";
+  static const String textOfFAQs= "FAQs";
+  static const String FAQ1= "Fusce ac risus faucibus nisi viverra?";
+  static const String FAQ2= "Etiam vestibulum ipsum nec pretium fringilla?";
+  static const String FAQ3= "Nulla eget lectus viverra, finibus neque ac, condimentum diam?";
+  static const String FAQ4= "Donec scelerisque ligula at dignissim posuere?";
+  static const String question= "Can't find what you're looking for?";
+  static const String contactUs= "Contact Us";
+  static const String helpContent= "Please read on to learn the rules and restrictions that govern "
+      "your use of our website(s), products, services ""and applications (the “Services”). "
+      "By using these Services and when purchasing a product or service through these Services,"
+      " you acknowledge that you have read and agreed to the following terms of use and our Refund "
+      "Policy as well as the specific terms of use pertaining to the deal that you are purchasing."
+      " We reserve the right to amend these terms from time to time. You must agree to and accept all of "
+      "the Terms of Use, or you don’t have the right to use the Services. Our Data Processing Agreement"
+      " under the European General Data Protection Regulation (GDPR) forms part of these Terms of Service. "
+      "Your use of the Services is subject to the following additional restrictions.";
+
+  static const String writeQuery= "Write your query here...";
+  static const String sendEmail= "Send Email";
+
+  static const String whyReturn= "Why are you returning this item?";
+  static const String addReason= "Add reason";
+  static const String conformation= "I confirm this item is unused and all tags are intact.";
+  static const String refund= "Refund Amount";
+  static const String pickup= "Pickup Address";
+  static const String changeAddress= "Change Address";
+  static const String viewOrderDetails= "View Order details";
+  static const String returnOrder= "Return";
+  static const String pickupAddress= "Sheikh Rashid Bin Saeed St, Zone 1, Abu Dhabi, United Arab Emirates";
+
+  static const String dummyNameiPhone= "FLYSTO wireless B11 necband headset";
+  static const String refundItem= "Refund";
+  static const String refundProduct= "Return #3475345";
+
+  static const String size= "Size";
+  static const String color= "Color";
+  static const String priceSelect= "Price";
+  static const String brand= "Brand";
+  static const String discount= "Discount";
+  static const String categories= "Categories";
+  static const String ratings= "Ratings";
+  static const String ram= "RAM";
+  static const String rom= "ROM";
+  static const String processor= "Processor";
+
+  static const String price2= "Upto \$100";
+  static const String price3= "\$100-\$200";
+  static const String price4= "\$200-\$300";
+  static const String price5= "\$300-\$400";
+  static const String price6= "\$400-\$500";
+  static const String price7= "\$500-\$600";
+  static const String price8= "Above \$600";
+
+  static const String orderIdText= "Order ID";
+  static const String orderId= "#3269853";
+  static const String placeOnDate= "05 Feb 2022";
+  static const String placeOnText= "Placed on";
+  static const String amountReceived= "Amount Received";
+  static const String amountOfItem= "\$399";
+  static const String receivedOn= "Received on";
+  static const String receivedOnDate= "12 Feb 2022";
+  static const String noOfItem= "1 Item";
+  static const String itemDelivered= "No. of items delivered";
+  static const String orderDetails= "Order Details";
+
+  static const String global= "Global Electronics";
+  static const String reviews= "Reviews";
+  static const String sellerItem= "FLYSTO wireless B11 necband headse..";
+  static const String dummyItemName= "Patiofy Swing for Indoor";
+  static const String sellerRate= "4.2 out of 5";
+  static const String rateCount= "(12,348)";
+  static const String promoted= "Promoted Post";
+  static const String product= "Product";
+
+  static const String itemName= "FLYSTO wireless B11 necband..";
+
+
+  /*dummy Texts*/
+  static const String dummyUserName = "Julie Peterson";
+  static const String dummyUserNameSeller = "John Dunne";
+  static const String dummyEmail = "juliepeterson9845@gmail.com";
+
+  static const String dummyDescription =
+      "And in the blink of an eye our party has started!";
+  static const String dummyItemAdded = "1 item added to cart successfully.";
+  static const String jacobWalder = "Jacob_walder";
+  static const String dummyComment = "Very nice";
+  static const String dummyComment2 =
+      "Some of you’re asking if I am having fun here in #Funworld Oh Yes I am.";
+  static const String dummyCommentCount = "20 Comments";
+  static const String dummyMobileNumber = "+971 9876543210";
+  static const String dummyMusicName = "Memories";
+  static const String dummyMusicArtistName = "Maroon 5";
+  static const String dummyUserName2 = "@julie_9420";
+  static const String dummyBio = "Lifestyle Photographer, shopaholic";
+  static const String myPlayList = "My playlist";
+  static const String dummyHobby1 = "Ballet";
+  static const String dummyHobby2 = "Dance";
+  static const String dummyHobby3 = "Reading";
+  static const String lableOfRectangle = "2:30";
+  static const String labelOfRectanglePlayMusic = "5:30";
+  static const String acrobics = "Acrobics";
+  static const String astrology = "Astrology";
+  static const String bowling = "Bowling";
+  static const String ballet = "Ballet";
+  static const String canoeing = "Canoeing";
+  static const String cooking = "Cooking";
+  static const String dance = "Dance";
+  static const String drawing = "Drawing";
+  static const String eating = "Eating";
+  static const String fashionStyling = "Fashion Styling";
+  static const String fishing = "Fishing";
+  static const String shopping = "Shopping";
+  static const String zumba = "Zumba";
+  static const String Mobiles = "Mobiles";
+  static const String Electronics = "Electronics";
+  static const String Clothing = "Clothing";
+  static const String Grocery = "Grocery";
+  static const String Home = "Home";
+  static const String loreum =
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+  static const String iphoneReview =
+      "The iPhone design is good and the camera quality is awesome. You can also take pictures in wide angles and the image quality is awesome.\n\n Phone got delivered at 9am on 28th September (I pre-order it on 27th September at 3am in the morning), I got my phone before the delivery date with nice and secured packaging.";
+  static const String cart = "Cart";
+  static const String deliverTo = "Deliver to:";
+  static const String juliePeterson = "  Julie Peterson";
+  static const String address = "Liwa Tower, P.O. Box 901, Abu Dhabi";
+  static const String change = "Change";
+  static const String priceDetail = "Price Details (2 items)";
+  static const String totalMRP = "Total MRP:";
+  static const String textOfShipping = "Shipping:";
+  static const String mrp = "\$684";
+  static const String shipping = "\$50";
+  static const String totalAmount = "Total Amount:";
+  static const String amount = "\$734";
+  static const String proceed = "Proceed";
+  static const String iPhonePrice = "\$650";
+  static const String watchPrice = "\$34";
+  static const String item = "1";
+  static const String addNewPost = "New Post";
+  static const String gallery = "Gallery";
+  static const String camera = "Camera";
+  static const String next = "Next";
+  static const String post = "Post";
+  static const String story = "Story";
+  static const String live = "Live";
+  static const String textOfAboutYourSelf = "Add details about yourself...";
+  static const String work = "Work";
+  static const String addWork = "Add Work";
+  static const String education = "Education";
+  static const String addCollege = "Add College";
+  static const String addSchool = "Add School";
+  static const String links = "Links";
+  static const String placesLived = "Places lived";
+  static const String addCity = "Add City";
+  static const String birthday = "Birthday";
+  static const String relationship = "Relationship";
+  static const String additionalInformation = "Additional Information";
+  static const String addWorkPlace = "Add Workplace";
+  static const String workPlaceName = "Workplace Name";
+  static const String signup = "Sign Up";
+  static const String steps = "STEP";
+  static const String businessDetails = "Business Details";
+  static const String signupSubTitle =
+      "Register by entering valid information.";
+  static const String businessName = "Business Name";
+  static const String username = "Username";
+  static const String businessEmail = "Business Email";
+  static const String password = "Password";
+  static const String confirmPassword = "Confirm Password";
+  static const String businessOverview = "Business Overview";
+  static const String licenseNumber = "License Number";
+  static const String uploadLicense = "+ Upload License Document";
+  static const String businessCategory = "Business Category";
+  static const String ownerName = "Owner Name";
+  static const String personalDetails = "Personal Details";
+  static const String firstName = "First Name";
+  static const String lastName = "Last Name";
+  static const String previous = "Previous";
+  static const String subscribeToTraderPlan = "Subscribe to trader plan";
+  static const String trader = "Trader";
+  static const String yourPlan = "Your Plan";
+  static const String perMonth = "/month";
+  static const String perYear = "/Year";
+  static const String billedAnnually = "Billed Annually";
+  static const String features = "Features";
+  static const String unlimitedImageAndVideos = "Unlimited Images and Videos";
+  static const String liveFromYourPhone = "Live from Your Phone";
+  static const String sellProducts = "Add/Sell Products";
+  static const String products = "Products";
+  static const String orders = "Orders";
+  static const String payments = "Payments";
+  static const String totalOrders = "TOTAL ORDERS";
+  static const String newOrders = "New Orders";
+  static const String inTransit = "In Transit";
+  static const String returnCancelled = "Returned/Cancelled";
+  static const String recentOrders = "RECENT ORDERS";
+  static const String newOrder = "New Order";
+  static const String filters = "Filters";
+  static const String filterByCategory = "Filter by category";
+  static const String sortBy = "Sort by";
+  static const String anyPrice = "Any price";
+  static const String custom = "Custom";
+  static const String low = "Low";
+  static const String high = "High";
+  static const String itemType = "Item type";
+  static const String allItem = "All item";
+  static const String handmade = "Handmade";
+  static const String vintage = "Vintage";
+  static const String apply = "Apply";
+  static const String cancel = "Cancel";
+  static const String allCategories = "All Categories";
+  static const String manageOrder = "Manage Order";
+  static const String ordered = "Ordered";
+  static const String otherItemInOrder = "Other Items in this order";
+  static const String buyerInfo = "Buyer Info";
+  static const String completed = "Completed";
+  static const String inProgress = "In Progress";
+  static const String paymentSettledInLast30Days = "Payment settled in last 30 days";
+  static const String amountReturned = "Amount returned";
+  static const String viewStatus = "View Status";
+  static const String filter = "Filter";
+  static const String addProduct = "Add Product";
+  static const String basicDetails = "Basic Details";
+  static const String variations = "Variations";
+  static const String description = "Description";
+  static const String selectCategory = "Select category";
+  static const String selectSubCategory = "Select sub-category";
+  static const String productID = "Product ID";
+  static const String productName = "Product Name";
+  static const String specName = "Spec Name";
+  static const String specValue = "Spec Value";
+  static const String addMoreFilters = "+Add More Filters";
+  static const String uploadImageVideo = "Upload Image/Video";
+  static const String productFitFor = "Product Fit For";
+  static const String inventory = "Inventory";
+  static const String outOfStock = "Out of stock";
+  static const String selectSize = "Select Size";
+  static const String noOfRating = "12,348 ratings";
+  static const String editProduct = "Edit Product";
+  static const String selectLocation = "Select a location";
+
+  static const String selectColor = "Select Color";
+  static const String errorDialogTitle = "Error!";
+  static const String loginSuccessful = "Login Successful!";
+  static const String registerSuccessful = "Register Successful!";
+  static const String forgotSuccessTitle = "Check Your Email";
+  static const String forgotSuccessMessage = "Please check the email address for instructions to reset your password.";
+  static const String resetPassword = "Reset Password";
+  static const String resetPasswordDescription = "Seems like you forgot your password.\nPlease enter your new password to reset it.";
+  static const String resetPasswordSuccessTitle = "Password Changed!";
+  static const String resetPasswordSuccessMessage = "Your password has been changed successfully.";
+  static const String playListCreateSuccessfully = "Your PlayList created successfully.";
+  static const String playListCreateSuccessfullyTitle = "Success.";
+  static const String someThingWentToWrong = "Something went to wrong, please try again letter.";
+  static const String mobileNoLabel="Mobile No*";
+  static const String streetNameLabel="Street Name*";
+  static const String countryNameLabel="Country Name*";
+  static const String seeAll="See All";
+  static const String businessAddress="Business Address";
+  static const String personalPhoneNumber="Personal Phone Number";
+  static const String businessPhoneNumber="Business Phone Number";
+  static const String addOrEditButtonText="Add/Edit Links";
+  static const String changeBusinessLogo="Change Business Logo";
+  static const String sendNotification="Send Notification On";
+  static const String startService="Start Service";
+
+  static const String validationBusinessName = "Please enter Business Name.";
+  static const String validationBusinessOverview = "Please enter Business Overview.";
+  static const String validationLicenseNumber = "Please enter License Number.";
+  static const String validationStreetName = "Please enter Street Name.";
+  static const String validationAddress = "Please enter Address.";
+  static const String validationLocality = "Please enter Locality.";
+  static const String validationCity = "Please select City.";
+  static const String pinCode = "Pin Code";
+  static const String chooseCity = "Choose city";
+  static const String validationPinCode = "Please enter Pin Code.";
+  static const String validationOwnerName = "Please enter Owner Name.";
+  static const String validationDocument = "Please Upload Document.";
+  static const String validationFirstName = "Please enter First Name";
+  static const String validationLastName = "Please enter Last Name";
+  static const String uploadVideos = "Upload Videos";
+  static const String upgradePlanMessage = "You need to upgrade your plan.";
+
+  static const String emptyPlaylistTitle="Empty Playlist!";
+  static const String emptyPlaylistDesc="There are no any playlist found at this moment!";
+  static const String chooseCategory = "Choose category";
+  static const String coverImage = "Cover Image";
+  static const String selectedVideos = "Selected Videos";
+  static const String emptyPlaylistError="Playlist name should not be empty!";
+
+  static const String changePassword= "Change Password";
+  static const String settings= "Settings";
+  static const String privacy= "Privacy";
+  static const String interactions= "Interactions";
+  static const String security= "Security";
+  static const String privateAccount= "Private Account";
+  static const String blockedAccounts= "Blocked Accounts";
+  static const String messageReplies= "Message Replies";
+  static const String factorAuthentication= "2-Factor Authentication";
+  static const String currentPassword= "Current Password";
+  static const String newPassword= "New Password";
+  static const String update= "Update";
+  static const String confirmNewPassword= "Confirm New Password";
+  static const String changePasswordContent= "It's a good idea to use a strong password that you are not using elsewhere.";
+
+}

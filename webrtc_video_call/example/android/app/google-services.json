@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5492328018",
+    "project_id": "webrtc-socket",
+    "storage_bucket": "webrtc-socket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5492328018:android:fa55235ea2feeaa9ec418b",
+        "android_client_info": {
+          "package_name": "com.concetto.webrtccommunication_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5492328018-2vh8cfcr8si4bjg7kiifqe3m1okcld5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCYXzaOmXxIyOzEGU6YU-ZcLhZW8R_LCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5492328018-2vh8cfcr8si4bjg7kiifqe3m1okcld5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
