@@ -3,6 +3,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:internet_speed_test/callbacks_enum.dart';
+import 'package:internet_speed_test/internet_speed_test.dart';
 import 'package:sticky_grouped_list/sticky_grouped_list.dart';
 import 'package:webrtccommunication/utils/signaling_constants.dart';
 import 'package:webrtccommunication/utils/socket_configuration.dart';
@@ -15,6 +17,7 @@ class LiveStreamingController extends SuperController {
   RxBool isChatInitiate = false.obs;
   final messageController = TextEditingController().obs;
   final ScrollController controller = ScrollController();
+  final internetSpeedTest = InternetSpeedTest();
 
   var socketStatus = "".obs;
   var userStatus = SignalingConstants.offline.obs;
@@ -35,6 +38,7 @@ class LiveStreamingController extends SuperController {
 
   int page = 1;
 
+  RxDouble animatedPosition = 50.0.obs;
   final GroupedItemScrollController itemScrollController =
   GroupedItemScrollController();
   final ItemPositionsListener itemPositionsListener =
@@ -126,13 +130,13 @@ class LiveStreamingController extends SuperController {
           if (state == SocketConnectionStatus.CONNECTION_ESTABLISHED) {
             if (isSocketConnected == false) {
               isSocketConnected = true;
-              showSnackBar('Socket connected',
+              /*showSnackBar('Socket connected',
                   backgroundColor: Colors.green,
-                  duration: const Duration(seconds: 1));
+                  duration: const Duration(seconds: 1));*/
             }
           } else if (state == SocketConnectionStatus.CONNECTION_DISCONNECTED) {
             isSocketConnected = false;
-            showSnackBar('Socket disconnected', backgroundColor: Colors.red);
+            /*showSnackBar('Socket disconnected', backgroundColor: Colors.red);*/
           } else if (state == SocketConnectionStatus.ONMESSAGE) {
             debugPrint('state ONMESSAGE :$data');
           }
